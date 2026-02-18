@@ -28,7 +28,7 @@ const App: React.FC = () => {
   };
 
   const handleStart = () => setCurrentStep(Step.CREATE_TEAM);
-  
+
   const handleTeamCreated = (data: TeamData) => {
     setTeamData(data);
     setCurrentStep(Step.ROLE_RECO);
