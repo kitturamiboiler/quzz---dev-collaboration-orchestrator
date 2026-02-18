@@ -52,7 +52,6 @@ Track team roles and project progress at a glance.
 
 ### Prerequisites
 - Node.js (v18+)
-- Google Gemini API Key → [Get one here](https://aistudio.google.com)
 
 ### Installation
 
