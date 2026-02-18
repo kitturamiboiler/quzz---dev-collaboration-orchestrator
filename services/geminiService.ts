@@ -22,7 +22,7 @@ export const getRoleRecommendations = async (teamData: TeamData): Promise<Recomm
     All responses must be in English.`;
 
   const response = await ai.models.generateContent({
-    model: "gemini-1.5-flash", // 최신 모델 권장
+    model: "gemini-1.5-flash-latest", // 최신 모델 권장
     contents: prompt,
     config: {
       responseMimeType: "application/json",
@@ -78,7 +78,7 @@ export const getTechnicalBlueprint = async (teamData: TeamData): Promise<Technic
     All responses must be in English. Output as JSON matching the TechnicalBlueprint interface.`;
 
   const response = await ai.models.generateContent({
-    model: "gemini-1.5-flash",
+    model: "gemini-1.5-flash-latest",
     contents: prompt,
     config: {
       responseMimeType: "application/json",
